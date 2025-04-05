@@ -52,7 +52,7 @@ Siga os passos abaixo para rodar a aplicação localmente.
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/screenshot-link.git
+git clone https://github.com/victo29/screenshot-link.git
 cd screenshot-link
 ```
 
