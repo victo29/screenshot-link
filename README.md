@@ -19,9 +19,9 @@
 
 ## 🧠 Como Funciona?
 
-Você informa o link de uma página da web na interface da aplicação. O back-end, por meio da biblioteca **Pyppeteer**, abre essa página no modo *headless* (sem interface gráfica) e tira uma captura de tela automaticamente, salvando-a na pasta `static`.
+Você informa o link de uma página da web no front-end. O back-end, por meio da biblioteca **Pyppeteer**, abre essa página no modo *headless* (sem interface gráfica) e tira uma captura de tela automaticamente, salvando-a na pasta `static`.
 
-O front-end então recebe o **nome da imagem gerada** e acessa e acessa essa imagem através da URL pública exposta pelo Flask, que segue o padrão:
+O front-end então recebe o **nome da imagem gerada** e acessa essa imagem através da URL pública exposta pelo Flask, que segue o padrão:
 ``http://127.0.0.1:5000/static/img/NOME_DA_IMAGEM``. Em seguida, a aplicação **inicia o download automático** da imagem no navegador do usuário.
 
 ---
